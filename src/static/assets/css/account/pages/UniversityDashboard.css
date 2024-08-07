@@ -1,0 +1,195 @@
+.uni-image {
+  width: 100%;
+}
+
+.Uni-intro {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  place-items: center;
+  margin-bottom: 15px;
+  height: 400px;
+}
+
+.uni-logo {
+  height: 146px;
+  width: 146px;
+  left: 104px;
+  top: 202px;
+  border-radius: 0px;
+}
+
+.header {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  color: #FFFFFF;
+}
+
+.depart {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.exclusive {
+  width: 178px;
+  background: #FFFFFF;
+  border-radius: 21px;
+
+}
+
+.exclusive .exclusive-text {
+  font-family: 'Inter';
+  font-size: 19px;
+  font-weight: 500;
+  color: #002151;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.vertical {
+  border-left: 1px solid #FFFFFF;
+  margin-left: 20px;
+  top: 0;
+  height: 236px;
+  border-radius: 0px;
+
+}
+
+.grid-container {
+  display: grid;
+  justify-items: end;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+
+.names {
+  color: #FFFFFF;
+  font-family: Poppins;
+  margin: 10px 30px;
+}
+
+.name {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+}
+
+.sub-name {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+
+}
+
+.new-application {
+  background-color: #002151;
+  padding: 5px 5px 5px 5px;
+  border-radius: 12px;
+  gap: 10px;
+  display: block;
+  margin: auto;
+  width: 317px;
+  height: 55px;
+}
+
+.new-application .new-app-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 5px;
+}
+
+.uni-webinar-title {
+  color: hsl(216, 100%, 16%);
+  font-size: 32px;
+  font-family: 'Roboto';
+}
+
+.webinar-con {
+  margin-left: 72%;
+  display: flex;
+  height: 130px;
+  width: 300px;
+}
+
+.webinar-left,
+.webinar-right {
+  box-shadow: 0 0 10px #b3b1b1;
+  border-radius: 9px;
+}
+
+.webinar-left .webinar-title,
+.webinar-right .webinar-title {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  justify-content: center;
+  margin-left: auto;
+  color: #000000;
+}
+
+.webinar-left .webinar-num,
+.webinar-right .webinar-num {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  justify-content: center;
+  color: #000000;
+}
+
+.applications {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 15px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.doughnutchart2 {
+  height: 407px;
+  width: 1440px;
+  border-radius: 0px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 40.58%, #0D2C58 124.83%);
+  ;
+}
+
+.doughnutchart2 .title {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 35px;
+}
+

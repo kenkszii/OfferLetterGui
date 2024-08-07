@@ -1,0 +1,82 @@
+/**
+*!/usr/bin/env
+* -*- coding: utf-8 -*-
+* Education Management Information System App
+*/
+
+
+/**
+* author: Exfac
+* copyright: Copyright 2023 - new Date().getFullYear(), Exfac Inc.
+* credits: ["Mr. O"]
+* version: process.env.EMISYSTEM_VERSION
+* maintainer: OTechCup
+* email: support@exfac.info
+* status: process.env.EMISYSTEM_ENVIRONMENT_STATUS
+*/
+
+
+/* import modules */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+/* tailwind layers */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg__gradient {
+  background: linear-gradient(180deg, #0D2C58 0%, #144286 100%);
+}
+
+.hover__child {
+  display: none;
+}
+
+.hover__parent:hover .hover__child {
+  display: block;
+}
+
+.hover__child-two {
+  display: none;
+}
+
+.hover__parent-two:hover .hover__child-two {
+  display: block;
+}
+
+.round__bl__tr {
+  border-radius: 0px 20px;
+}
+
+.angle__pointer {
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid #fff;
+}
+
+a.active{
+  color: #fff !important;
+}

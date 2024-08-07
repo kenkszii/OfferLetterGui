@@ -1,0 +1,18 @@
+.app-status-wrapper {
+  width: 83%;
+  position: absolute;
+  right: 0;
+  padding: 8rem 2rem;
+}
+
+.app-status .accepted {
+  color: #21B573;
+}
+
+.app-status .rejected {
+  color: #FF0000;
+}
+
+.app-status .pwnding {
+  color: #FFFF00;
+}

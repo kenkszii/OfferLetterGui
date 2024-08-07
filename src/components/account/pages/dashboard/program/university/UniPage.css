@@ -1,0 +1,278 @@
+/* {
+    height: 100%;
+    width: auto;
+    background-color: #7C8999;
+} */
+
+.unipage-main {
+  box-sizing: border-box;
+  margin-left: 19%;
+  display: flex;
+  overflow-x: hidden;
+  /* padding-top: 40px; */
+  /* width: 82vw; */
+  /* Work on this height when working on school filter and eligibility */
+  /* height: 82vh; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* background-color: #ffffff; */
+}
+
+/* .unipage-main img {
+  height: 100%;
+  width: 100%;
+} */
+
+.unipage-main .main-wrapper {
+  /* height: 80%; */
+  /* margin-top: 60px; */
+  /* margin-left: -30px; */
+  width: 78vw;
+}
+
+.unipage-main .search {
+  position: fixed;
+  display: flex;
+  z-index: 10;
+  background-color: white;
+  height: 120px;
+  align-items: center;
+  width: 78%;
+  justify-content: space-between;
+  /* justify-content: flex-end; */
+  /* gap: 30px; */
+  /* margin-bottom: 100px; */
+  /* check this later */
+}
+
+.unipage-main .search-box {
+  display: flex;
+  align-items: center;
+  width: 490px;
+  height: 50px;
+  background: #eff8ff;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.unipage-main .search-box button {
+  width: 170px;
+  height: 50px;
+  background: #0d2c58;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.search-right-wrap {
+  display: flex;
+  align-items: center;
+}
+
+/* .search .srch-left {
+    margin-right: auto;
+} */
+
+.unipage-main .search-box input {
+  margin-left: 30px;
+  color: #000000;
+  border: none;
+  font-size: large;
+  outline: none;
+  background-color: #eff8ff;
+}
+
+.vert-line {
+  width: 3px;
+  height: 30.5px;
+  margin-left: 10px;
+  background-color: #d5ebff;
+}
+
+.funnel-icon {
+  height: 25px;
+  width: 25px;
+  margin-left: 21px;
+  cursor: pointer;
+}
+
+.main-content {
+  display: flex;
+  margin: 120px 0px 0px 0px;
+}
+
+.funnel-drop {
+  position: fixed;
+  top: 190px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 197px;
+  height: 236px;
+  background: #b6d8f2;
+  border-radius: 10px;
+  padding: 15px 15px 27px;
+  z-index: 10;
+}
+
+/* 
+.funnel-drop span {
+  border-bottom: 1px solid #ffffff;
+  margin-top: 16px;
+  padding-bottom: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+*/
+
+.filter-opt {
+  background-color: #eff8ff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.filter .filter-opt-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  width: 300px;
+  margin-bottom: 15px;
+  height: 40px;
+  /* z-index: 2; */
+  border-radius: 10px;
+  background-color: #eff8ff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  user-select: none;
+}
+
+.down-icon {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.sch-filter-drop {
+  background-color: #eff8ff;
+  padding-top: 20px;
+  margin-top: 2px;
+  border-radius: 0 0 10px 10px;
+  display: none;
+  /* z-index: 1; */
+}
+
+.elig-drop {
+  background-color: #eff8ff;
+  padding-top: 20px;
+  margin-top: 2px;
+  border-radius: 0 0 10px 10px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.filter-opt .pick {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+/* .filter-opt .first-pick { */
+/* margin-top: 40px; */
+/* } */
+
+/* .filter-opt .pick p {
+    margin-bottom: 8px;
+} */
+
+.filter-opt .pick .pick-opt {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #97a9be;
+  border-radius: 5px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.filter-opt .pick span {
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+.cancel-icon {
+  height: 10px;
+  width: 10px;
+}
+
+.pick-opt .down-icon {
+  margin: 0 16px;
+}
+
+.fee {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 23px;
+}
+
+/* 
+.fee input {
+  width: 100%;
+  background: transparent;
+  background-color: #7C8999; 
+}
+  */
+
+.fee-range div {
+  display: flex;
+  justify-content: space-between;
+  color: #7c8999;
+}
+
+.apply-filter {
+  width: 90%;
+  margin: 25px 16px 30px;
+  height: 39px;
+  background-color: #0d2c58;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  border: none;
+}
+
+.show-gmat {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #000000;
+}
+
+/* University Selected */
+.uni-select {
+  width: 100%;
+  margin-left: 15px;
+  /* height: 1580px;
+    overflow-y: auto;
+    overflow-x: hidden; */
+}

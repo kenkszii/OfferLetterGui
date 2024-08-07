@@ -1,0 +1,56 @@
+.mt-13 {
+  margin-top: 5rem !important;
+}
+
+
+.bg-info input {
+  background: #ebebeb;
+  padding: 0.9rem 2rem;
+  cursor: pointer;
+  outline: 0;
+}
+
+.bg-info select {
+  background: #ebebeb;
+  cursor: pointer;
+  outline: 0;
+}
+
+/* .background-info */
+input[type="radio"] {
+  display: none;
+}
+
+.bg-info .checkbox {
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  padding: 0 0 0 3rem;
+}
+
+.bg-info .checkbox:before {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  position: absolute;
+  content: "";
+  left: 0;
+  background: #ebebeb;
+  border-radius: 50%;
+}
+
+input[type="radio"]:checked + .checkbox:before {
+  background: #0d2c58;
+}
+
+.bg-info fieldset {
+  border: 0;
+}
+
+.mbbs input {
+  background: #EBEBEB;
+  padding: .8rem 2rem;
+  cursor: pointer;
+  outline: 0;
+}

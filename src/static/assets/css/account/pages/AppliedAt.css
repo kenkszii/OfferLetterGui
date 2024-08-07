@@ -1,0 +1,135 @@
+.applied-at .uni-img {
+    height: 82px;
+    width: 82px;
+    margin-right: 10px;
+}
+
+.i-info .i-icon {
+    height: 16px;
+    width: 16px;
+}
+
+.applied-at .gather {
+    height: 276px;
+    width: 271px;
+    margin-right: 138px;
+}
+
+
+.applied-at .top {
+    display: flex;
+    column-gap: 20px;
+    overflow-y: auto;
+}
+
+.applied-at .hide-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.applied-at .uni-status {
+    width: 488px;
+    background: #EFF8FF;
+    border-radius: 10px;
+}
+
+.applied-at .top .upper {
+    display: flex;
+    align-items: flex-start;
+    padding: 18px 15px;
+    background-color: #E3F2FE;
+    border-radius: 10px;
+}
+
+.applied-at .top .side {
+    width: 80%;
+}
+
+.applied-at .top .side>div {
+    display: flex;
+    align-items: flex-start;
+}
+
+.i-info {
+    display: flex;
+}
+
+.applied-at .top .side div:nth-of-type(3)>div {
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+}
+
+.applied-at .top .side div:nth-of-type(1),
+.applied-at .top .side div:nth-of-type(3) {
+    justify-content: space-between;
+}
+
+.i-info span {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 8px;
+    color: #A7A9AC;
+}
+
+.applied-at .i-info:nth-of-type(2) {
+    margin-left: 19px;
+}
+
+.applied-at .top .lower {
+    padding: 11px 25px 0;
+    border-radius: 10px;
+}
+
+.applied-at .top .lower>div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.applied-at .top .lower h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 0;
+}
+
+
+.applied-at .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 112px 0;
+    padding: 0 67px;
+    height: 330px;
+    background: #EFF8FF;
+    border-radius: 10px;
+}
+
+.applied-at .bottom p {
+    margin: 0;
+}
+
+.applied-at .bottom button {
+    width: 223px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #0D2C58;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.applied-at .bottom .left {
+    justify-content: center;
+    align-items: center;
+}
+
+.applied-at .bottom .right {
+    justify-content: center;
+    align-items: center;
+}

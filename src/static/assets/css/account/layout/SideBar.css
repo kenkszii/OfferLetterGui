@@ -1,0 +1,127 @@
+/**
+*!/usr/bin/env
+* -*- coding: utf-8 -*-
+* Education Management Information System App
+*/
+
+
+/**
+* author: Exfac
+* copyright: Copyright 2023 - new Date().getFullYear(), Exfac Inc.
+* credits: ["Mr. O"]
+* version: process.env.EMISYSTEM_VERSION
+* maintainer: OTechCup
+* email: support@exfac.info
+* status: process.env.EMISYSTEM_ENVIRONMENT_STATUS
+*/
+
+
+/* import modules */
+
+
+.sidebar {
+  width: 17%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background-color: #0d2c58;
+  flex-direction: column;
+  z-index: 3;
+}
+
+.sidebar .logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 1.5rem 1.5rem 3rem;
+  background: #051d3f;
+}
+
+.sidebar .logo span {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.sidebar ul {
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar .nav-links {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3rem 0 0 3rem;
+  overflow-y: scroll;
+}
+
+.sidebar .nav-links .top-links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sidebar .nav-links .link {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  cursor: pointer;
+}
+
+.sidebar .nav-links li .dropdown {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem 0 0;
+}
+
+
+.sidebar .nav-links li a {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1rem;
+  cursor: pointer;
+  user-select: none;
+  display: block;
+}
+
+.sidebar .nav-links li img {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.sidebar .nav-links .dropdown-links {
+  padding: 0.5rem 0 0 1rem;
+  height: 0;
+  overflow: hidden;
+}
+
+.sidebar .nav-links .drop {
+  height: auto;
+}
+
+.sidebar .nav-links .dropdown-links li a {
+  padding: 1rem 0 1rem 1rem;
+}
+
+.sidebar .nav-links .dropdown-links li a:hover {
+  background: #fff;
+  color: #0d2c58;
+}
+
+.sidebar .nav-links .bottom-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem 0 3rem 0;
+}

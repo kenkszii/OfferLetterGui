@@ -1,0 +1,280 @@
+
+.view-profile .progress-bar {
+  height: 51px;
+  width: 51px;
+}
+
+.view-profile .pencil {
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  right: 10px;
+  height: 15px;
+  width: 15px;
+}
+
+.view-profile .camera {
+  height: 70px;
+  width: 70px;
+  margin-right: 20px;
+}
+
+.nums .nums-wrap div {
+  height: 18px;
+  width: 18px;
+  margin-right: 8px;
+}
+
+.view-profile .pref-name div {
+  width: 18px;
+  height: 18px;
+}
+
+.profile-info .btm-wrap div {
+  height: 18px;
+  width: 18px;
+}
+
+.view-profile .prof-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 15px;
+}
+
+.view-profile .prof-head h1 {
+  /* height: 23px; */
+  left: 262px;
+  top: 146px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.view-profile .prof-head div {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.view-profile .profile-info {
+  position: relative;
+  height: 132px;
+  background: #eff8ff;
+  border-radius: 10px;
+  padding-top: 10px;
+  margin-bottom: 29px;
+}
+
+.view-profile .profile-info .top {
+  display: flex;
+  padding: 0 0 0 18px;
+  align-items: flex-end;
+  margin-bottom: 18px;
+}
+
+.view-profile .profile-info .top .nums {
+  display: flex;
+  column-gap: 19px;
+}
+
+.view-profile .profile-info .top .nums .nums-wrap {
+  display: flex;
+  align-items: flex-end;
+}
+
+.view-profile .profile-info .top .nums .nums-wrap span {
+  width: 110px;
+  /* height: 14px; */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #a7a9ac;
+}
+
+.view-profile .profile-info .bottom {
+  display: flex;
+  margin-left: 39px;
+  column-gap: 20px;
+}
+
+.view-profile .profile-info .bottom .btm-wrap {
+  display: flex;
+  column-gap: 6px;
+}
+
+.view-profile .profile-info .bottom .btm-wrap span {
+  /* height: 24px; */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ff0000;
+}
+
+.view-profile .cam-side h2 {
+  width: 78px;
+  /* height: 19px; */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.below-pref {
+  padding: 28px 0 0 40px;
+  display: flex;
+  position: relative;
+  column-gap: 284px;
+  background: #eff8ff;
+  margin-bottom: 21px;
+  border-radius: 10px;
+}
+
+.below-pref .pref-wrap {
+  width: 258px;
+  margin-bottom: 19px;
+}
+
+.below-pref .pref-name {
+  display: flex;
+  column-gap: 11px;
+  /* margin-bottom: 1px; */
+}
+
+.view-profile .pref-gray {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  margin-left: 27px;
+  line-height: 24px;
+  color: #949597;
+}
+
+.view-profile .pref-red {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  margin-left: 27px;
+  line-height: 24px;
+  color: #ff0000;
+}
+
+.below-pref .pref-name span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.below-pref .select-div {
+  width: 229px;
+  height: 38px;
+  margin-left: 27px;
+}
+
+.below-pref .select-div select {
+  width: 100%;
+  height: 100%;
+  background: #d3dfe9;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #0d2c58;
+  outline: none;
+}
+
+.right-pref .select-div input {
+  width: 100%;
+  height: 100%;
+  background: #d3dfe9;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #0d2c58;
+  outline: none;
+  border: none;
+}
+
+.view-profile .below-edu {
+  background: #eff8ff;
+  border-radius: 10px;
+  position: relative;
+  padding: 17px 0 6px 46px;
+  margin-bottom: 39px;
+}
+
+.view-profile .below-test-score {
+  background: #eff8ff;
+  border-radius: 10px;
+  position: relative;
+}
+
+.view-profile .below-edu h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 2px;
+  color: #000000;
+}
+
+.view-profile .below-edu p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #a7a9ac;
+  margin: 0;
+}
+
+.below-test-score {
+  padding: 20px 12px;
+  margin-bottom: 89px;
+}
+
+.below-test-score .ielt {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 7px;
+  margin-bottom: 7px;
+}
+
+.view-profile .below-test-score span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.view-profile .big-text {
+  margin-left: 34px;
+  margin-right: 42px;
+}
+
+.profilepicture{
+cursor: pointer;
+border-radius: 45%;
+height: 90px;
+width: 90px;
+}

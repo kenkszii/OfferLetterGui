@@ -1,0 +1,124 @@
+
+
+.inbox-wrapper {
+  /* margin-bottom: 110px; */
+  display: grid;
+  grid-template-columns: 70% 1fr;
+  column-gap: 25px;
+}
+
+.inbox-page .left::-webkit-scrollbar {
+  display: none;
+}
+
+.inbox-page img {
+  height: 100%;
+  width: 100%;
+}
+
+.inbox-page .uni-i-img {
+  height: 77px;
+  width: 77px;
+  margin-right: 21px;
+}
+
+.inbox-page .left {
+  height: 760px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.inbox-page .uni-inbox {
+  display: flex;
+  /* width: 806px; */
+  padding: 23px 0 23px 14px;
+  margin-bottom: 23px;
+  background: #eff8ff;
+  border-radius: 10px;
+}
+
+/* .inbox-page .uni-inbox .side {
+} */
+
+.inbox-page .uni-inbox .side h1 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 7px;
+  color: #000000;
+}
+
+.inbox-page .uni-inbox .side p {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+  line-height: 24px;
+  color: #000000;
+}
+
+.inbox-page .right {
+  display: flex;
+  flex-direction: column;
+}
+
+.inbox-page .right .below {
+  height: 374px;
+  width: 100%;
+  background: #eff8ff;
+  border-radius: 10px;
+}
+
+.inbox-page .right .below .gather {
+  width: 148px;
+  height: 150px;
+  margin: 23px auto 17px;
+}
+
+.inbox-page .right .below p {
+  width: 280px;
+  height: 72px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  margin: 15px auto;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+/* .inbox-page .right .below button {
+    width: 290px;
+    height: 50px;
+    border: none;
+    background: #0D2C58;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 10px 12px 0;
+    line-height: 24px;
+    color: #FFFFFF;
+} */
+
+.inbox-page .right .article-card {
+  width: 100%;
+  margin-bottom: 31px;
+  padding-bottom: 50px;
+}
+
+/* .button {
+    margin: auto;
+    margin-top: 39px;
+    border: none;
+    width: 300px;
+    height: 50px;
+    left: 1096px;
+    top: 462px;
+    background-color: #0D2C58;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+} */

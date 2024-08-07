@@ -1,0 +1,631 @@
+/**
+*!/usr/bin/env
+* -*- coding: utf-8 -*-
+* Education Management Information System App
+*/
+
+
+/**
+* author: Exfac
+* copyright: Copyright 2023 - new Date().getFullYear(), Exfac Inc.
+* credits: ["Mr. O"]
+* version: process.env.EMISYSTEM_VERSION
+* maintainer: OTechCup
+* email: support@exfac.info
+* status: process.env.EMISYSTEM_ENVIRONMENT_STATUS
+*/
+
+
+/* import modules */
+
+
+.application-progress .arrow {
+  clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+}
+.admin {
+  width: 100vw;
+  margin: 0 0;
+}
+
+.statistics-cont {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 4rem;
+}
+
+.statistics-cont .stat {
+  min-width: 350px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 28px;
+  color: #FFFFFF;
+  padding: 3rem;
+  border-radius: 10px;
+  background: #0D2C58;
+  cursor: pointer;
+}
+
+.statistics-cont .stat h3 {
+  margin: 0 0 1rem 0;
+}
+
+.statistics-cont .stat ul {
+  padding: 0;
+  margin: 0;
+}
+
+.statistics-cont .stat ul li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0 0 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.option .option-box {
+  /* height: 159px; */
+  /* width: 154px; */
+  color: #0d2c58;
+  padding: 3rem 1rem 2rem 1rem;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 2px solid #0d2c58;
+  /* margin: 25px; */
+  cursor: pointer;
+}
+
+.option .option-box:hover {
+  background: #0d2c58;
+  color: #fff;
+}
+
+.option .students {
+  background: #E0E4EB;
+}
+
+.option .school-box {
+  background: #D5EBFF;
+}
+
+.option .agents {
+  background: #F8E0F9;
+}
+
+.option .universities {
+  background: #F9DCCA;
+}
+
+.option .icon {
+  height: 38px;
+  height: 41px;
+  font-size: 40px;
+  /* margin-left: 24px; */
+}
+
+.option .text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  margin: 1rem 0 0 0;
+
+  /* margin-left: 17px; */
+  line-height: 32px;
+  font-family: "Roboto";
+}
+.applicant-cont {
+  cursor: pointer;
+}
+
+.applicant-cont:nth-of-type(2n) {
+  background: rgba(146, 177, 221, 0.2);
+}
+
+.applicant-cont .dp-cont {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.applicant-cont .dp {
+  width: 32.5px;
+  height: 32.5px;
+  border-radius: 50%;
+}
+
+.applicant-cont .paragraph {
+  margin: 0;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.applicant-cont .status {
+  width: 96px;
+  border-radius: 3px;
+  padding: .5rem 0;
+  text-align: center;
+}
+
+.applicant-cont .accepted {
+  color: #009106;
+  background-color: #a8feac;
+}
+
+.applicant-cont .recieved {
+  color: #009106;
+  background-color: #a8feac;
+}
+
+.applicant-cont .rejected {
+  color: #ff0000;
+  background: #FFD3D3;
+}
+
+.applicant-cont .pending {
+  background: #f3f35a;
+  color: #aaaa4c;
+}
+
+.course-conts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.img-cont {
+  width: 80px;
+  height: 80px;
+  background-color: #0d2c58;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  border-radius: 50%;
+}
+
+.course-logo {
+  border-radius: 50%;
+  color: #ffffff;
+  height: 39px;
+  width: 39px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.grey-icon {
+  border-radius: 50%;
+  color: #000000;
+  height: 39px;
+  width: 39px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.grey-cont {
+  width: 80px;
+  height: 80px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.course-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+  font-family: "Roboto";
+  margin: 1rem 0 0 0;
+}
+
+.webinar-cont {
+  padding: 1rem 1rem 1rem 2rem;
+  background: #0d2c58;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.webinar-cont .title {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  width: 90px;
+}
+
+.webinar-cont .total {
+  font-size: 18px;
+  line-height: 21px;
+  margin: 1rem 0 0 0;
+  align-self: flex-end;
+}
+
+.country-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+.country-flag {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.country-flag img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.country-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.video {
+  border-radius: 8.19635px;
+}
+
+.videos {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.videos .thumbnail {
+  max-width: 180px;
+  height: 125px;
+  position: relative;
+  overflow: hidden;
+}
+
+.videos .thumbnail:before {
+  position: absolute;
+  background: #ffffff3d;
+  width: 100%;
+  height: 100%;
+  content: '';
+}
+
+.videos .thumbnail img {
+  width: 100%;
+  height: 100%;
+}
+
+.videos .date-cont {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: -25px;
+  right: -15px;
+  border-radius: 50%;
+  background: #0d2c58;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.videos .date {
+  color: #ffffff;
+  font-size: 11px;
+  position: absolute;
+  margin: 0;
+  right: 30px;
+  top: 40px;
+
+}
+
+.videos .video-desc {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.videos .video-desc h3 {
+  margin: 0;
+  font-weight: 700;
+}
+
+.videos .video-desc p {
+  margin: .5rem 0 0 0;
+  font-weight: 400;
+  color: #706E6E;
+}
+
+.chart-cont {
+  padding: 1rem 2rem 2rem 2rem;
+  border-radius: 12px;
+  color: #000000;
+  background: #d9d9d9;
+}
+
+.chart-cont:hover {
+  color: #fff;
+  background: #0D2C58;
+}
+
+.chart-cont:hover .key {
+  border: 1px solid #fff;
+}
+
+.chart-cont .chart-title-stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.chart-cont .chart-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 28px;
+  margin: 0;
+  text-align: center;
+  /* display: flex;
+  align-content: flex-start;
+  justify-content: center; */
+  /* transform: translateY(-23px); */
+}
+
+.chart-cont p {
+  margin: 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 28px;
+}
+
+.chart-cont .chart-box {
+  /* margin: 25px; */
+  /* height: 199px; */
+  /* width: 377px; */
+  /* border-radius: 12px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.chart-cont .pie-chart {
+  width: 120px;
+  height: 120px;
+}
+
+.chart-details .detail {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  /* flex-direction: column; */
+  /* gap: .5rem; */
+}
+
+.chart-details .key {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid #000000;
+  margin: 0;
+}
+
+/* .chart-details .all {
+
+}
+
+.chart-details .rejected {
+  background: #FF7723;
+}
+
+.chart-details .accepted {
+  background: #0263FF;
+}
+
+.chart-details .pending {
+  background: #8E30FF;
+} */
+
+
+
+/* .chart-stats {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  transform: translateY(-23px);
+  color: #000000;
+}
+
+ */
+
+/* .unichart-box { */
+/* width: 377px; */
+/* height: 199px; */
+/* border: 2px solid #0d2c58; */
+/* border-radius: 12px; */
+/* margin: 30px; */
+/* margin-top: 70px; */
+/* } */
+
+.admin-dash {
+  height: 100%;
+  width: 100%;
+}
+
+.details-cont {
+  display: flex;
+  flex-direction: row;
+}
+
+.detail-one {
+  width: 65%;
+  padding: 5rem 1rem 0 3rem;
+}
+
+@media only screen and (min-width:1440px) {
+  .detail-one {
+    padding: 5rem 1.5rem 0 5rem;
+  }
+}
+
+.detail-two {
+  background: #e5e5e533;
+  padding: 5rem 3rem;
+  width: 35%;
+}
+
+.admin-dash .option {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 3rem;
+  padding: 0 1rem 0 0;
+}
+
+.admin-dash .applicant-text {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+  margin: 4rem 0 1rem 0;
+  font-family: "Roboto";
+}
+
+.admin-dash .applicant-dashboard-section {
+  padding: 2rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.admin-dash .top-applicants .applicant-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 6rem 1rem 3rem;
+}
+
+.admin-dash .top-applicants .applicant-cont p {
+  font-size: 9.75px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.admin-dash .see-all-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: .5rem;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  padding: 1rem 0;
+  cursor: pointer;
+}
+
+.see-all-btn:hover img {
+  transform: translateX(3px);
+}
+
+.admin-dash .course-sections {
+  border: 2px solid #0d2c58;
+  border-radius: 12px;
+  padding: 2rem 3rem 4rem 3rem;
+  cursor: pointer;
+}
+
+.admin-dash .course-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.admin-dash .course-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 28px;
+  margin: 0 0 1.5rem 0;
+}
+
+.admin-dash .Top-statistic {
+  padding: 4rem 0 5rem 0;
+}
+
+.webinar-session-text {
+  margin: 0 0 2rem 0;
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.past-upcomming-webinars-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1.5rem;
+}
+
+.curr-videos {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3rem 0 4rem 0;
+}
+
+.top-countries {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.detail-two .visa-statistic {
+  margin: 3rem 0 0 0;
+}
+
+.top-text {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+

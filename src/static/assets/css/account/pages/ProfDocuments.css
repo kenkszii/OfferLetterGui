@@ -1,0 +1,227 @@
+.prof-doc {
+  width: 83%;
+  position: absolute;
+  right: 0;
+  padding: 8rem 2rem;
+}
+
+.prof-doc .prog-bar {
+  height: 51px;
+  width: 51px;
+}
+
+.prof-doc .doc-status {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 37px;
+  height: 99px;
+}
+
+.prof-doc .upload-cert input {
+  width: 90px;
+  margin: 10px;
+}
+
+/* .prof-doc .doc-status .left{
+} */
+
+.prof-doc .doc-status .right {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.prof-doc .school-cert .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eff8ff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 20px 12px;
+}
+
+.prof-doc .school-cert {
+  background-color: #eff8ff;
+  border-radius: 10px;
+  padding-bottom: 23px;
+  margin-bottom: 25px;
+}
+
+.prof-doc .school-cert .single-cert-wrap {
+  margin: 17px 41px;
+  /* margin-bottom: 8px; */
+}
+
+.prof-doc .school-cert .single-cert {
+  display: flex;
+  justify-content: flex-end;
+  padding: 8px 18px;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  height: 45px;
+}
+
+.prof-doc .doc-status h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.prof-doc .doc-status {
+  background: #eff8ff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 15px 24px;
+}
+
+.prof-doc .doc-status .left p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ff0000;
+}
+
+.prof-doc .doc-status .right span,
+.prof-doc .school-cert .head span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ff0000;
+}
+
+.prof-doc .school-cert .head h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.prof-doc .single-cert span,
+.uploaded-cert span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.prof-doc .single-cert span:nth-of-type(1) {
+  margin-right: auto;
+}
+
+.prof-doc .single-cert span:nth-of-type(2),
+.prof-doc .format {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  color: #a7a9ac;
+  margin-left: 19px;
+}
+
+.prof-doc .upload-cert {
+  width: 174px;
+  height: 40px;
+  position: relative;
+}
+
+.prof-doc .upload-cert label {
+  width: 100%;
+  height: 100%;
+}
+
+.prof-doc .upload-cert label span {
+  font-size: 12px;
+  cursor: pointer;
+}
+
+
+
+.prof-doc .school-cert:nth-of-type(2) {
+  margin-top: 32px;
+}
+
+.prof-doc .upload-icon {
+  height: 24px;
+  width: 24px;
+}
+
+.prof-doc .uploaded-cert {
+  /* display: flex;
+    justify-content: space-between; */
+  margin-top: 15px;
+  padding: 12px 18px 8px;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  /* height: 45px; */
+}
+
+.prof-doc .uploaded-cert .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prof-doc .uploaded-cert .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prof-doc .uploaded-cert .top .upload-cert span {
+  border: 1px solid #21b573;
+}
+
+.prof-doc .uploaded-cert .bottom div span {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 24px;
+  color: #21b573;
+}
+
+.prof-doc .addit-wrap {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 25px;
+}
+
+.prof-doc .addit-doc {
+  width: 280px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  background: linear-gradient(180deg, #0d2c58 0%, #144286 100%);
+  border-radius: 10px;
+  border: none;
+}
+
+.prof-doc .addit-doc span {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.prof-doc .save {
+  width: 280px;
+  height: 50px;
+  background: linear-gradient(180deg, #0d2c58 0%, #144286 100%);
+  border-radius: 10px;
+  border: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}

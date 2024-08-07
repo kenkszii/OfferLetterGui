@@ -1,0 +1,23 @@
+/**
+*!/usr/bin/env
+* -*- coding: utf-8 -*-
+* Education Management Information System App
+*/
+
+
+/**
+* author: Exfac
+* copyright: Copyright 2023 - new Date().getFullYear(), Exfac Inc.
+* credits: [kenkszii]
+* version: process.env.EMISYSTEM_VERSION
+* maintainer: OTechCup
+* email: support@exfac.info
+* status: process.env.EMISYSTEM_ENVIRONMENT_STATUS
+*/
+
+
+/* import modules */
+.btn:disabled {
+  opacity: 0.65;
+  pointer-events: none;
+}
